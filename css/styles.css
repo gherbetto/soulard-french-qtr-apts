@@ -10981,6 +10981,7 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
 #benefits .benefit-item {
   max-width: 26rem;
   margin-left: auto;
@@ -11011,6 +11012,7 @@ header.masthead .masthead-heading {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
+  min-height: 15rem;
 }
 #benefits .benefit-item .benefit-caption .benefit-caption-heading {
   font-size: 1.5rem;
@@ -11021,46 +11023,6 @@ header.masthead .masthead-heading {
 #benefits .benefit-item .benefit-caption .benefit-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.benefit-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
-}
-.benefit-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  text-align: center;
-}
-.benefit-modal .modal-content h2, .benefit-modal .modal-content .h2 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-.benefit-modal .modal-content p.item-intro {
-  font-style: italic;
-  margin-bottom: 2rem;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.benefit-modal .modal-content p {
-  margin-bottom: 2rem;
-}
-.benefit-modal .modal-content ul.list-inline {
-  margin-bottom: 2rem;
-}
-.benefit-modal .modal-content img {
-  margin-bottom: 2rem;
-}
-.benefit-modal .close-modal {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
-  cursor: pointer;
-  background-color: transparent;
-}
-.benefit-modal .close-modal:hover {
-  opacity: 0.3;
 }
 
 .gallery-image {
@@ -11074,6 +11036,33 @@ header.masthead .masthead-heading {
   object-fit: cover; /* Crops the image within the aspect ratio */
   width: 100%;       /* Makes the image responsive */
   height: 100%;
+}
+
+#leasing .leasing-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#leasing .leasing-item .leasing-link .leasing-hover .leasing-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+
+#leasing .leasing-item .leasing-caption {
+  padding: 1.5rem;
+  background-color: #fff;
+}
+#leasing .leasing-item .leasing-caption .leasing-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+}
+#leasing .leasing-item .leasing-caption .leasing-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 section#contact {
